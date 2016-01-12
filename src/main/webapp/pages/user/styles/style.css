@@ -1,0 +1,191 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: url("/pages/user/images/bg.png") repeat-x #fff;
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#site-name {
+    font-family: Impact, Arial Black;
+    font-size: 45px;
+    font-weight: bold;
+    color: #fff;
+    line-height: 65px;
+    padding-top: 25px;
+    text-decoration: none;
+}
+
+#wrapper, #footer-wrap {
+    width: 960px;
+    margin: 0 auto;
+}
+
+#header {
+    height: 68px;
+}
+
+#nav {
+    float: right;
+    list-style: none;
+    font-size: 14px;
+    height: 29px;
+    margin-top: 24px;
+}
+
+#nav li {
+    float: left;
+    margin-right: 10px;
+    margin-top: 8px;
+}
+
+#nav li a {
+    color: #fff;
+    font-weight: bold;
+    text-shadow: #000 1px 1px 0;
+    text-decoration: none;
+    line-height: 29px;
+    padding: 0 10px;
+    float: left;
+}
+
+#nav li.main_page, #nav li:hover {
+    background: url("/pages/user/images/nav-start.png") no-repeat;
+}
+
+#nav li.main_page a, #nav li a:hover {
+    background: url("/pages/user/images/nav-end.png") 100% 0% no-repeat;
+    color: #2a66a5;
+}
+
+#masthead {
+    height: 281px;
+    background: url("/pages/user/images/graph.jpg") top right no-repeat;
+}
+
+#first-line {
+    font-size: 40px;
+    font-weight: bold;
+    color: #bababa;
+    text-shadow: #030b13 1px 1px 3px;
+    line-height: 43px;
+}
+
+#second-line {
+    font-size: 34px;
+    font-weight: bold;
+    color: #000;
+    text-shadow: #74b1f0 1px 1px 0;
+}
+
+#third-line {
+    font-size: 19px;
+    font-weight: normal;
+    color: #e0d6ab;
+    text-shadow: #071728 1px 1px 0;
+    padding: 12px 0 20px;
+}
+
+#masthead .button {
+    background: url("/pages/user/images/button.png") no-repeat;
+    display: inline-block;
+    width: 211px;
+    height: 48px;
+    line-height: 48px;
+    text-indent: 15px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #262626;
+    text-decoration: none;
+    text-shadow: #fff 1px 1px 0;
+}
+
+#about {
+    padding: 20px 0 20px;
+    font-size: 14px;
+    color: #565656;
+}
+
+.column {
+    width: 278px;
+    float: left;
+}
+
+.column h2 {
+    padding-bottom: 12px;
+    font-size: 20px;
+    font-weight: normal;
+    color: #000;
+    text-shadow: #dcdcdc 1px 1px 5px;
+}
+
+.column.middle {
+    margin: 0 47px;
+}
+
+.column a {
+    float: right;
+    padding: 20px;
+    color: #d30c00;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.column a:hover {
+    text-decoration: underline;
+}
+
+.column form {
+    font-size: 12px;
+    padding: 10px;
+}
+
+.column form .button {
+    padding: 5px 20px 5px 20px;
+    color: #d30c00;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 10px;
+    width: 120px;
+}
+
+.column form select {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+table {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+td {
+    border: 2px solid lightgray;
+    padding: 5px;
+    padding-right: 20px;
+}
+
+tr:first-child {
+    font-style: italic;
+    background-color: #99CCFF;
+}
+
+#footer {
+    background: url("/pages/user/images/footer-bg.png") #4a4a4a repeat-x;
+    margin-top: 25px;
+}
+
+#credit {
+    float: left;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 10px;
+    color: #bababa;
+    text-transform: uppercase;
+    line-height: 15px;
+    text-align: right;
+}
